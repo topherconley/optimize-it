@@ -5,7 +5,8 @@ Optimization code and documentation for isotope trace detection in mass spectrom
 Visualization is the quickest way to optimize isotope trace detection with Massifquant in the XCMS suite. The files 
   * optimize-vis-massifquant.Rnw Source Code
   * optimize-vis-massifquant.tex: Latex encoding of source code
-  * optimize-vis-massifquant.pdf: Human readable version  
+  * optimize-vis-massifquant.pdf: Human readable version.
+
 detail how to strategically visualize the effects of parameter variations on the IT detection results. The **mouse_data** and **figs** directories correspond to this analysis.  
 
 ### Score-Based Optimization
