@@ -93,7 +93,7 @@ The reported IT of this first pass are then subjected to increasing intensity th
 <<numpeaks-intensity, echo = FALSE, out.width = '4in', out.height = '4in', tidy = TRUE>>=
 #different minimum thresholds on the max intensity of a peak 
 ithreshold = seq(from = 6.5e4, to = 1.5e5, length = 5)
-idetect = lapply(ithreshold, function(t) which(ixs@peaks[, "maxo"] >= t))
+idetect = lapply(ithreshold, function(t) which(ixs@peaks[, "into"] >= t))
 names(idetect) = paste0("ithresh", ithreshold)
 ndetect = sapply(idetect, length)
 plot(ithreshold, ndetect, pch  = 19, type = 'o', xlab = "intensity threshold", ylab  = "IT detected")
